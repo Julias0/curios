@@ -10693,7 +10693,7 @@ Airtable.default_config = function () {
   return {
     endpointUrl: undefined || 'https://api.airtable.com',
     apiVersion: '0.1.0',
-    apiKey: "keyVR9ePDezoOhCfZ",
+    apiKey: undefined,
     noRetryIfRateLimited: false,
     requestTimeout: 300 * 1000 // 5 minutes
 
@@ -11132,7 +11132,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52715" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59027" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
