@@ -1,0 +1,19 @@
+{
+  "name": "curious",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve --port 3002 --global curious curious.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.27",
+    "airtable": "^0.9.0",
+    "inversify": "^5.0.1",
+    "parcel-bundler": "^1.12.4",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.9.7"
+  }
+}
